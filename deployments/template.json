@@ -13,7 +13,7 @@
     "image": "coreos-stable",
     "region": "SFO2",
     "size": "512mb",
-    "snapshot_name": "tec-snapp-{{user `build_number}}",
+    "snapshot_name": "tec-snapp-{{user `build_number`}}",
     "ssh_username": "core",
     "tags": ["web-app"]
 
