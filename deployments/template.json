@@ -24,8 +24,7 @@
       "type": "shell",
       "inline": [
         "docker pull {{user `build_number`}}",
-        "docker build -t webappautoperrona .",
-        "docker run -d -p 3000:3000 webappautoperrona"
+        "docker run -d -p 3000:3000 {{user `build_number`}}"
       ]
     }
   ]
